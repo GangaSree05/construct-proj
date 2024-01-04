@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1jlg5c5ygfjtb</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="WhatsAppImage20240104At145617_316195e" sid="514588937298032">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="811434279667132" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ganga\OneDrive\Desktop\WhatsApp Image 2024-01-04 at 14.56.17_316195e4.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="292307958605728">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Physics" sid="745674372465165">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\ganga\OneDrive\Desktop\WhatsApp Image 2024-01-04 at 14.55.25_108136e2.jpg" />
+        </object-type>
+        <object-type name="ball" sid="745197878687603">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="449281311656147">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="283386883491807" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="C:\Users\ganga\OneDrive\Desktop\ball.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.485714" y="0" />
+                            <point x="0.857143" y="0.142857" />
+                            <point x="1" y="0.485714" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.485714" y="1" />
+                            <point x="0.142857" y="0.857143" />
+                            <point x="0" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BOX" sid="271444560767480">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="125189347758160">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="190836721830389" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="C:\Users\ganga\OneDrive\Desktop\BOX.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cannon" sid="181007795552442">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="118421776890551" speed="5">
+                    <frame duration="1" hotspotX="0.28" hotspotY="0.492537" original-source="C:\Users\ganga\OneDrive\Desktop\cannon.png">
+                        <image-point name="Imagepoint 1" x="0.866667" y="0.492537" />
+                        <collision-poly>
+                            <point x="0.0466667" y="0.104478" />
+                            <point x="0.5" y="0.104478" />
+                            <point x="0.906667" y="0.208955" />
+                            <point x="1" y="0.492537" />
+                            <point x="0.906667" y="0.791045" />
+                            <point x="0.5" y="0.895522" />
+                            <point x="0.0666667" y="0.850746" />
+                            <point x="0" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cannon2" sid="487192091033043">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="909890682963377" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ganga\OneDrive\Desktop\cannon2.png">
+                        <collision-poly>
+                            <point x="0.313953" y="0.397059" />
+                            <point x="0.5" y="0" />
+                            <point x="0.697674" y="0.382353" />
+                            <point x="0.697674" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.313953" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="375465071443717">
+            <plugin id="Mouse" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="25" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
